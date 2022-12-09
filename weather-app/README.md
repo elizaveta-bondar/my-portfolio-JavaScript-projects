@@ -1,2 +1,2 @@
 # weather-app
-My first project written in JavaScript.
+My first project is written in JavaScript.
