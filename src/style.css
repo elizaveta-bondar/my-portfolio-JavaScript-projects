@@ -1,0 +1,112 @@
+body {
+  font-family: "Dosis", sans-serif;
+  background-color: #eaeaea;
+}
+
+h1 {
+  color: #5c5470;
+  font-size: 75px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  color: #5c5470;
+}
+a {
+  color: #5c5470;
+  cursor: default;
+}
+
+.btn {
+  background-color: #eaeaea;
+  border: 0;
+  color: #5c5470;
+}
+.btn:hover {
+  background-color: #263849;
+  color: #5c5470;
+}
+.celsius .fahrenheit {
+  text-decoration: none;
+}
+.celsius:hover .fahrenheit:hover {
+  text-decoration: none;
+  color: #5c5470;
+}
+.temperature {
+  font-size: 90px;
+  height: 0;
+  color: #5c5470;
+}
+.units {
+  position: relative;
+  bottom: 45px;
+  font-size: 30px;
+  color: #5c5470;
+}
+.img-now {
+  max-width: 40%;
+  display: inline;
+}
+.description {
+  font-size: 30px;
+  font-weight: 600;
+  color: #5c5470;
+}
+.description::first-letter {
+  text-transform: capitalize;
+}
+.description-details {
+  color: white;
+}
+.date {
+  font-size: 20px;
+  font-weight: normal;
+  color: #5c5470;
+}
+
+.weather-app {
+  max-width: 900px;
+  border-style: none;
+  border-radius: 10px;
+  border-color: rgba(234, 234, 234, 0.8);
+
+  margin: 10px 50px;
+  padding: 20px 40px;
+  background-color: #45b3ac;
+}
+
+.forecast {
+  margin-top: 25px;
+  text-align: center;
+  background-color: rgba(234, 234, 234, 0.3);
+  border-radius: 10px;
+}
+.forecast-date {
+  font-size: 20px;
+  font-weight: 600;
+  color: #606470;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+.forecast-temp {
+  font-size: 20px;
+  margin-top: 6px;
+  color: #606470;
+  font-weight: 300;
+}
+.forecast-temp-max {
+  color: #5c5470;
+}
+.forecast-temp-min {
+  color: rgba(92, 84, 112, 0.5);
+}
+.footer {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+  color: #5c5470;
+}
